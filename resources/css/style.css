@@ -232,6 +232,7 @@ body {
 }
 .backarrow {
     margin-top: 1.25rem;
+    margin-left: .5rem;
 }
 .quizcont {
     margin-bottom: 8rem;
@@ -312,4 +313,44 @@ body {
 
 .collapsible.active .arrow {
     transform: rotate(90deg); /* Rotates arrow when active */
+}
+.printable {
+    display: flex;
+}
+.printtxt {
+    font-weight: 600;
+    color: #1B3B6F;
+    margin-right: 1rem;
+}
+.pastpapcont {
+    margin-bottom: 4rem;
+}
+.pastpapcont h3{
+    color: #21295C;
+    margin-top: 4rem;
+}
+.pastpapcont textarea {
+
+    color: #21295C;
+    border: thin solid #21295C;
+    background-color: #9EB3C2;
+}
+.pastpapcont h5 {
+    float: right;
+    font-style: italic;
+    color: #21295C;
+}
+.pastpapsubmit {
+    width: 250px;
+    height: 80px;
+    font-weight: 800;
+    font-size: 30px;
+    background-color: #10142D;
+    border: none;
+    border-radius: 10px;
+    margin: 3rem 0;
+}
+.pastpapsubmit a {
+    color: #CDD8E0;
+    text-decoration: none;
 }
