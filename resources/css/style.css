@@ -97,7 +97,6 @@ body {
 }
 #cracctbtn button {
     margin-top: 1.5rem;
-
     font-weight: 600;
     width: 60%;
     padding: 1rem;
@@ -110,4 +109,21 @@ body {
     background-color: #CDD8E0;
     border: solid thin #10142D;
     color: #10142D;
+}
+.penciledit {
+    width: 300px;
+}
+.acctedit {
+    margin: 4rem 1rem;
+}
+#logoutcont {
+    display: flex;
+    align-items: flex-end;
+
+}
+#logoutbtn {
+    background-color: #10142D;
+    color: #CDD8E0;
+    padding: 1rem 3rem;
+    margin: 0 0 1rem 3rem;
 }
