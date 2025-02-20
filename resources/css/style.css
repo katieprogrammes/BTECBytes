@@ -1,0 +1,78 @@
+body {
+    background-color: #CDD8E0;
+    font-family: Nunito;
+    margin-top: 2rem;
+}
+.bbtitle {
+    text-align: center;
+    margin: 2rem 0rem;
+    color: #10142D;
+    font-weight: 700;
+}
+.logincontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #10142D;
+}
+.loginimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.usersignin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5rem;
+}
+.signinfield
+{
+    margin-bottom: 3rem;
+    width: 80%;
+    padding: .375rem .75rem;
+    line-height: 1.5;
+    border: thin solid #10142D;
+    border-radius: 5px;
+    background-color: #CDD8E0;
+    color: #10142D;
+}
+#signinbtn {
+    width: 80%;
+    background-color: #10142D;
+    border: none;
+    color: #CDD8E0;
+    text-align: center;
+
+}
+#createacctbtn {
+    width: 80%;
+    background-color: #CDD8E0;
+    color: #10142D;
+    border: thin solid #10142D;
+    margin: 1rem 0rem;
+}
+.topaccount {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.acctimglrg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#picchange {
+    margin: 1.5rem 0 0 2.5rem;
+    width: 80%;
+    background-color: #10142D;
+    color: #CDD8E0;
+}
+#picdefault {
+    margin: 1.5rem 0 0 2.5rem;
+    width: 80%;
+    background-color: #10142D;
+    color: #CDD8E0;
+}
