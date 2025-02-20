@@ -272,3 +272,44 @@ body {
     width: 150px;
     height: 64px;
 }
+.topicmenu button {
+    border: none;
+    background-color: #CDD8E0;
+    color: #10142D;
+}
+.topicchunk {
+    margin: 2rem 0;
+}
+.topicchunk h5 {
+    margin-left: 2rem;
+}
+.topicchunk a {
+    text-decoration: none;
+    color: #10142D;
+}
+.content {
+    display: none;
+}
+.active + .content {
+    display: block;
+}
+.collapsible {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #eee;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.arrow {
+    transition: transform 0.3s ease;
+    display: inline-block; /* Keeps the arrow aligned properly */
+}
+
+.collapsible.active .arrow {
+    transform: rotate(90deg); /* Rotates arrow when active */
+}
