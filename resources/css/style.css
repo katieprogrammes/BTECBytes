@@ -24,6 +24,13 @@ body {
     color: #10142D;
     font-weight: 700;
 }
+.bbtitlelrg {
+    text-align: center;
+    margin: 2rem 0 2rem 6rem;
+    color: #10142D;
+    font-weight: 800;
+    font-size: 4rem;
+}
 .logincontent {
     display: flex;
     flex-direction: column;
@@ -141,4 +148,78 @@ body {
     color: #CDD8E0;
     padding: 1rem 3rem;
     margin: 0 0 1rem 3rem;
+}
+.studybuttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.studybuttons button {
+    width: 250px;
+    height: 110px;
+    font-weight: 800;
+    font-size: 30px;
+    background-color: #1B3B6F;
+    border: none;
+    border-radius: 10px;
+
+}
+.studybuttons a {
+    text-decoration: none;
+    color: #CDD8E0;
+}
+.revisebuttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.revisebuttons button {
+    width: 250px;
+    height: 110px;
+    font-weight: 800;
+    font-size: 30px;
+    background-color: #065A82;
+    border: none;
+    border-radius: 10px;
+
+}
+.revisebuttons a {
+    text-decoration: none;
+    color: #CDD8E0;
+}
+.testbuttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.testbuttons button {
+    width: 250px;
+    height: 110px;
+    font-weight: 800;
+    font-size: 30px;
+    background-color: #1C7293;
+    border: none;
+    border-radius: 10px;
+
+}
+.testbuttons a {
+    text-decoration: none;
+    color: #CDD8E0;
+}
+.progressbtn {
+    width: 250px;
+    height: 80px;
+    font-weight: 800;
+    font-size: 30px;
+    background-color: #10142D;
+    border: none;
+    border-radius: 10px;
+    margin: 3rem 0;
+}
+.progressbtn a {
+    text-decoration: none;
+    color: #CDD8E0;
 }
