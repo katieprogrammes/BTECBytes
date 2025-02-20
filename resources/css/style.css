@@ -374,3 +374,21 @@ body {
 .predictprog h3 {
     font-weight: 800;
 }
+.keywords {
+    background-color: #1B3B6F;
+    color: #CDD8E0;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.keywords h2 {
+    font-weight: 700;
+    text-decoration: underline;
+    margin: 1rem 0;
+}
+.keywords h4 {
+    font-style: italic;
+}
