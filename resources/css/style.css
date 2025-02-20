@@ -16,7 +16,7 @@ nav a {
 body {
     background-color: #CDD8E0;
     font-family: Nunito;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 .bbtitle {
     text-align: center;
@@ -30,6 +30,13 @@ body {
     color: #10142D;
     font-weight: 800;
     font-size: 4rem;
+}
+.bbtitlemed {
+    text-align: center;
+    margin: 2rem 0 2rem 6rem;
+    color: #10142D;
+    font-weight: 800;
+    font-size: 3rem;
 }
 .logincontent {
     display: flex;
@@ -222,4 +229,7 @@ body {
 .progressbtn a {
     text-decoration: none;
     color: #CDD8E0;
+}
+.backarrow {
+    margin-top: 1.25rem;
 }
