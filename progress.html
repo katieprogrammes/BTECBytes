@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./resources/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./resources/css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link href="./resources/js/bootstrap.bundle.min.js" rel="stylesheet">
+    <title>Progress</title>
+</head>
+<header>
+    <nav>
+        <a href="./topics.html">Topics Page</a>
+        <a href="./accountdetails.html">
+            <img src="./resources/images/person-circle.svg" height="50" width="50">
+        </a>
+    </nav>
+</header>
+<body>
+    <div class=".containter-fluid">
+        <!--START OF UNIQUE CONTENT-->
+        <div class="row">
+            <div class="col">
+            </div>
+            <div class="col">
+                <h1 class="bbtitlemed">Progress</h1>
+            </div>
+            <div class="col"></div>
+        </div>
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col">
+                <div class="progcontent">
+                    <h2>Overall Progress</h2>
+                    <div class="progress" id="progstyle" role="progressbar" aria-label="Example 20px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 50px">
+                        <div class="progress-bar" style="width: 25%"></div>
+                    </div>
+                    <h2>Grades</h2>
+                    <div class="row">
+                        <div class="col">
+                            <h3>Past Paper Average</h3>
+                            <h4>--</h4>
+                        </div>
+                        <div class="col">
+                            <h3>Test Average</h3>
+                            <h4>--</h4>
+                        </div>
+                        <div class="col">
+                            <h3>Homework Average</h3>
+                            <h4>--</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1"></div>
+        </div>
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4">
+                <div class="predictprog">
+                    <h3>Predicted Grade</h3>
+                    <h4>--</h4>
+                </div>
+            </div>
+            <div class="col-4"></div>
+        </div>
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col">
+                <div class="topicmenu">
+                    <div class="topicchunk">
+                        <button type="button" class="collapsible"><h2><span class="arrow">&#9656;</span>Topic Heading --%</h2></button>
+                        <div class="content">
+                            <button type="button" class="collapsible"><h3><span class="arrow">&#9656;</span>Subtopic --%</h3></button>
+                            <div class="content">
+                                <h5><a href="#">Past Paper --%</a></h5>
+                                <h5><a href="#">Homework --%</a></h5>
+                                <h5><a href="#">Quiz --%</a></h5>
+                            </div>
+                            <button type="button" class="collapsible"><h3><span class="arrow">&#9656;</span>Subtopic --%</h3></button>
+                            <div class="content">
+                                <h5><a href="#">Quiz --%</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="topicchunk">
+                        <button type="button" class="collapsible"><h2><span class="arrow">&#9656;</span>Topic Heading --%</h2></button>
+                        <div class="content">
+                            <button type="button" class="collapsible"><h3><span class="arrow">&#9656;</span>Subtopic --%</h3></button>
+                            <div class="content">
+                                <h5><a href="#">Homework --%</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="topicchunk">
+                        <button type="button" class="collapsible"><h2><span class="arrow">&#9656;</span>Topic Heading --%</h2></button>
+                        <div class="content">
+                            <button type="button" class="collapsible"><h3><span class="arrow">&#9656;</span>Subtopic --%</h3></button>
+                            <div class="content">
+                                <h5><a href="#">Past Paper --%</a></h5>
+                                <h5><a href="#">Homework --%</a></h5>
+                                <h5><a href="#">Quiz --%</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="topicchunk">
+                        <button type="button" class="collapsible"><h2><span class="arrow">&#9656;</span>Topic Heading --%</h2></button>
+                        <div class="content">
+                            <button type="button" class="collapsible"><h3><span class="arrow">&#9656;</span>Subtopic --%</h3></button>
+                        </div>
+                    </div>
+                    <div class="topicchunk">
+                        <button type="button" class="collapsible"><h2><span class="arrow">&#9656;</span>Topic Heading --%</h2></button>
+                        <div class="content">
+                            <button type="button" class="collapsible"><h3><span class="arrow">&#9656;</span>Subtopic --%</h3></button>
+                        </div>
+                    </div>
+
+                    <script>
+                        document.addEventListener("DOMContentLoaded", function() {
+                            var coll = document.getElementsByClassName("collapsible");
+                            
+                            for (var i = 0; i < coll.length; i++) {
+                                coll[i].addEventListener("click", function() {
+                                    this.classList.toggle("active");
+                                    var content = this.nextElementSibling;
+                                    content.style.display = content.style.display === "block" ? "none" : "block";
+                                });
+                            }
+                        });
+                    </script>
+                </div>
+            </div>
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col-1"></div>
+        </div>
+        <div class="row">
+            <div class="col-5"></div>
+            <div class="col">
+                <button class="homebtn"><a href="./dashboard.html">Home</a></button>
+            </div>
+            <div class="col-5"></div>
+        </div>
+        <!--END OF UNIQUE CONTENT-->
+    </div>
+</body>
+</html>
