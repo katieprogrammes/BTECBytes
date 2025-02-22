@@ -7,7 +7,7 @@
         <div class="col"></div>
         <div class="col-3">
             <div class="logincontent">
-                <img src="{$base_url}/resources/images/landscape-placeholder.svg" class="loginimg" height="250" width="250" alt="logo">
+                <img src="{$base_url}/resources/images/logo1.png" class="loginimg" height="250" width="250" alt="logo">
                 <h1 class="bbtitle">Login</h1>
                 <form class="usersignin">
                     <div data-mdb-input-init>
