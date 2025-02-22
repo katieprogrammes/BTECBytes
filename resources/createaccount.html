@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./resources/css/bootstrap.min.css" rel="stylesheet">
-    <link href="./resources/css/style.css" rel="stylesheet">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
-    <title>Account Details</title>
+    <title>Create Account</title>
 </head>
 <body>
     <div class=".containter-fluid">
@@ -18,11 +18,12 @@
             <div class="col-3">
                 <div class="topaccount">
                     <h1 class="bbtitle">Create Account</h1>
-                    <img src="./resources/images/person-circle.svg" class="acctimglrg">
+                    <img src="./images/person-circle.svg" class="acctimglrg">
                     <button type="submit" class="btn btn-primary btn-lg" >
-                        <img src="./resources/images/brush.svg">
+                        <img src="./images/brush.svg">
                         Change Picture
                     </button>
+                    <button type="submit" class="btn btn-primary btn-lg">Choose Default</button>
                 </div>
             </div>
             <div class="col"></div>
@@ -31,45 +32,42 @@
             <div class="col-2"></div>
             <div class="col">
                 <form class="createaccountform">
-                    <div data-mdb-input-init class="acctedit">
+                    <div data-mdb-input-init>
+                        <label class="form-label" for="classcode">Class Code:</label>
+                        <input type="number" id="classcode" class="createacctfield" placeholder="Class Code"/>
+                    </div>
+                    <div data-mdb-input-init>
                         <label class="form-label" for="firstname">First Name:</label>
-                        <input type="text" id="firstname" placeholder="First Name"/>
-                        <img src="./resources/images/pencil.svg">
+                        <input type="text" id="firstname" class="createacctfield" placeholder="First Name"/>
                     </div>
-                    <div data-mdb-input-init class="acctedit">
+                    <div data-mdb-input-init>
                         <label class="form-label" for="lastname">Last Name:</label>
-                        <input type="text" id="lastname" placeholder="Last Name"/>
-                        <img src="./resources/images/pencil.svg">
-                    </div>
-                    <div data-mdb-input-init class="acctedit">
-                        <label class="form-label" for="studemail">Your Email:</label>
-                        <input type="email" id="studemail" placeholder="Email"/>
-                        <img src="./resources/images/pencil.svg">
+                        <input type="text" id="lastname" class="createacctfield" placeholder="Last Name"/>
                     </div>
                 </form>
             </div>
             <div class="col">
                 <form class="createaccountform2">
-                    <div data-mdb-input-init class="acctedit">
-                        <label class="form-label" for="paremail">Parent Email:</label>
-                        <input type="email" id="paremail" placeholder="Parent Email"/>
-                        <img src="./resources/images/pencil.svg">
+                    <div data-mdb-input-init>
+                        <label class="form-label" for="studemail">Your Email:&nbsp; &nbsp; </label>
+                        <input type="email" id="studemail" class="createacctfield" placeholder="Email"/>
                     </div>
-                    <div data-mdb-input-init class="acctedit">
+                    <div data-mdb-input-init>
+                        <label class="form-label" for="paremail">Parent Email:</label>
+                        <input type="email" id="paremail" class="createacctfield" placeholder="Parent Email"/>
+                    </div>
+                    <div data-mdb-input-init>
                         <label class="form-label" for="parname">Parent Name:</label>
-                        <input type="text" id="parname" placeholder="Parent Name"/>
-                        <img src="./resources/images/pencil.svg">
+                        <input type="text" id="parname" class="createacctfield" placeholder="Parent Name"/>
                     </div>
                 </form>
             </div>
             <div class="col-2"></div>
         </div>
         <div class="row">
-            <div class="col-4" id="logoutcont">
-                <button type="submit" class="btn btn-primary btn-lg" id="logoutbtn">Log Out</button>
-            </div>
+            <div class="col-4"></div>
             <div class="col" id="cracctbtn">
-                <button type="submit" class="btn btn-primary btn-lg" id="creation">Save</button>
+                <button type="submit" class="btn btn-primary btn-lg" id="creation">Create Account</button>
                 <button type="submit" class="btn btn-primary btn-lg" id="cancelbtn">Cancel</button>
             </div>
             <div class="col-4"></div>
